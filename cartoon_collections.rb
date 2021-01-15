@@ -1,7 +1,7 @@
 def greet_characters(array)
-  array.each do |array|
+  array.each { |array|
     puts "Hello #{array.capitalize}!"
-  end
+  }
 end 
 
 
