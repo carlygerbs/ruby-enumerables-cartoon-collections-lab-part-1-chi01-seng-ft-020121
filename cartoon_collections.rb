@@ -1,3 +1,4 @@
+dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 def greet_characters(array)
   array.each { |name|
@@ -5,6 +6,7 @@ def greet_characters(array)
   }
 end 
 
+greet_characters(dwarves)
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
