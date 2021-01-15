@@ -3,6 +3,8 @@ dwarves = ["Dopey", "Grumpy", "Bashful"]
 def greet_characters(array)
   array.each { |name|
     puts "Hello #{name.capitalize}!"
+    p name 
+    p array 
   }
 end 
 
