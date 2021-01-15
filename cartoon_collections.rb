@@ -1,3 +1,4 @@
+
 def greet_characters(array)
   array.each { |name|
     puts "Hello #{name.capitalize}!"
